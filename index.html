@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Weather App</title>
     <!-- Google Fonts -->
@@ -32,9 +38,9 @@
             type="text"
             placeholder="Enter a city name"
             id="city"
-            value="berovo"
-            onkeydown = "if (event.keyCode == 13)
-                        document.getElementById('search-btn').click()"  
+            value="Berovo"
+            onkeydown="if (event.keyCode == 13)
+                        document.getElementById('search-btn').click()"
           />
           <button id="search-btn">
             <i class="fa-solid fa-magnifying-glass"></i>
